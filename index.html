@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - QA Bug Logger</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #555;
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        ul {
+            margin: 15px 0 15px 30px;
+            color: #666;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .update-date {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #2196f3;
+        }
+
+        .update-date p {
+            margin: 0;
+            color: #1976d2;
+            font-weight: 500;
+        }
+
+        .highlight-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-box {
+            background: #f0f4ff;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .contact-box p {
+            margin-bottom: 10px;
+        }
+
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            .content {
+                padding: 30px 15px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐞 QA Bug Logger</h1>
+            <p>Privacy Policy</p>
+        </header>
+
+        <div class="content">
+            <div class="update-date">
+                <p><strong>Last Updated:</strong> January 31, 2025</p>
+            </div>
+
+            <h2>1. Introduction</h2>
+            <p>Welcome to QA Bug Logger Extension. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our Chrome extension.</p>
+
+            <div class="highlight-box">
+                <p><strong>Key Point:</strong> QA Bug Logger does NOT collect, store, or transmit any personal data to our servers. All data stays within your Google account.</p>
+            </div>
+
+            <h2>2. Information We Do NOT Collect</h2>
+            <p>QA Bug Logger does not collect, store, or process any of the following:</p>
+            <ul>
+                <li>Personal identification information (name, email, address, etc.)</li>
+                <li>Browsing history or website usage data</li>
+                <li>Screenshots or bug reports (these go directly to YOUR Google Drive)</li>
+                <li>Login credentials or authentication tokens (handled by Google)</li>
+                <li>Analytics or tracking data</li>
+                <li>Cookies or similar tracking technologies</li>
+            </ul>
+
+            <h2>3. How the Extension Works</h2>
+            <p>QA Bug Logger operates entirely locally on your device and integrates with your Google account:</p>
+            
+            <h3>3.1 Screenshot Capture</h3>
+            <ul>
+                <li>Screenshots are captured locally using Chrome's built-in API</li>
+                <li>You can annotate screenshots using local drawing tools</li>
+                <li>Annotated screenshots are uploaded directly to YOUR Google Drive folder</li>
+                <li>We never see, access, or store these screenshots</li>
+            </ul>
+
+            <h3>3.2 Bug Data Storage</h3>
+            <ul>
+                <li>Bug descriptions and metadata are saved to YOUR Google Sheets</li>
+                <li>All data is stored in your Google account, not on our servers</li>
+                <li>You have complete control over this data</li>
+            </ul>
+
+            <h3>3.3 Google Authentication</h3>
+            <ul>
+                <li>We use Google OAuth for secure authentication</li>
+                <li>Authentication is handled entirely by Google</li>
+                <li>We only request the minimum permissions needed (Drive and Sheets access)</li>
+                <li>You can revoke access at any time through your Google Account settings</li>
+            </ul>
+
+            <h2>4. Permissions Required</h2>
+            <p>The extension requires the following Chrome permissions:</p>
+            <ul>
+                <li><strong>activeTab:</strong> To capture screenshots of the current webpage</li>
+                <li><strong>scripting:</strong> To inject the bug logging widget into web pages</li>
+                <li><strong>identity:</strong> For Google OAuth authentication</li>
+                <li><strong>storage:</strong> To save your Google Sheet and Drive folder preferences locally</li>
+            </ul>
+
+            <h2>5. Data Storage and Security</h2>
+            
+            <h3>5.1 Local Storage</h3>
+            <p>The extension stores the following data locally on your device using Chrome's storage API:</p>
+            <ul>
+                <li>Your Google Sheet ID (configured by you)</li>
+                <li>Your Google Drive folder ID (configured by you)</li>
+            </ul>
+            <p>This data never leaves your device except when making API calls to Google services.</p>
+
+            <h3>5.2 Google Services</h3>
+            <p>All your bug reports, screenshots, and related data are stored in:</p>
+            <ul>
+                <li><strong>Google Drive:</strong> Your screenshots are uploaded to a folder you specify</li>
+                <li><strong>Google Sheets:</strong> Bug details are saved to a spreadsheet you specify</li>
+            </ul>
+            <p>These services are governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+            <h2>6. Third-Party Services</h2>
+            <p>The extension integrates with the following third-party services:</p>
+            <ul>
+                <li><strong>Google Drive API:</strong> For uploading screenshots</li>
+                <li><strong>Google Sheets API:</strong> For saving bug data</li>
+                <li><strong>Google OAuth:</strong> For authentication</li>
+            </ul>
+            <p>We do not share any data with other third parties.</p>
+
+            <h2>7. Your Rights and Control</h2>
+            <p>You have complete control over your data:</p>
+            <ul>
+                <li><strong>Access:</strong> All your data is in your Google Drive and Sheets - you can access it anytime</li>
+                <li><strong>Modify:</strong> You can edit or delete any bug reports or screenshots in your Google account</li>
+                <li><strong>Delete:</strong> You can delete the extension and all locally stored settings</li>
+                <li><strong>Revoke Access:</strong> You can revoke the extension's access to Google services through <a href="https://myaccount.google.com/permissions" target="_blank">Google Account Permissions</a></li>
+            </ul>
+
+            <h2>8. Data Retention</h2>
+            <ul>
+                <li>We do not retain any of your data on our servers</li>
+                <li>Data in Google Drive and Sheets is retained according to your Google account settings</li>
+                <li>Local settings are deleted when you uninstall the extension</li>
+            </ul>
+
+            <h2>9. Children's Privacy</h2>
+            <p>QA Bug Logger is not intended for use by children under 13. We do not knowingly collect data from children. If you are a parent or guardian and believe your child has used this extension, please contact us.</p>
+
+            <h2>10. International Data Transfers</h2>
+            <p>Since all data is stored in your Google account, data transfers are governed by Google's policies. The extension itself does not transfer data internationally.</p>
+
+            <h2>11. Changes to This Policy</h2>
+            <p>We may update this privacy policy from time to time. When we do:</p>
+            <ul>
+                <li>We will update the "Last Updated" date at the top of this page</li>
+                <li>Significant changes will be notified through the extension's Chrome Web Store listing</li>
+                <li>Continued use of the extension after changes constitutes acceptance of the updated policy</li>
+            </ul>
+
+            <h2>12. Open Source</h2>
+            <p>QA Bug Logger is committed to transparency. You can review the extension's source code to verify our privacy practices. The extension does not contain any hidden data collection or tracking mechanisms.</p>
+
+            <h2>13. Contact Us</h2>
+            <div class="contact-box">
+                <h3>Questions or Concerns?</h3>
+                <p>If you have any questions about this privacy policy or our practices, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p><strong>Chrome Web Store:</strong> Report issues through the extension's support page</p>
+            </div>
+
+            <h2>14. Summary</h2>
+            <div class="highlight-box">
+                <p><strong>In Simple Terms:</strong></p>
+                <ul>
+                    <li>✅ We don't collect your personal data</li>
+                    <li>✅ We don't track your browsing</li>
+                    <li>✅ All your data goes to YOUR Google account</li>
+                    <li>✅ We never see your screenshots or bug reports</li>
+                    <li>✅ You have complete control over your data</li>
+                    <li>✅ You can delete everything at any time</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 QA Bug Logger. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
